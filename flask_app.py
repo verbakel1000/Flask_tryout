@@ -1,5 +1,7 @@
 import flask from flask
 
+app = Flask(__name__)
+
 @app.route('/')
-def home():
-    return "Hello World"
+def hello():
+    return "<p>Hello World! Huiswerk les 11 klaar :)<p>"
